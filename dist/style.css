@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  background-color: #eef0f4;
+  font-family: "Rubik", sans-serif;
+  color: #423000;
+}
+.container {
+  visibility: hidden;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  /* transition: all 2s ease-in; */
+  /* border: 2px solid red; */
+}
+img {
+  width: 150px;
+  margin: 0 auto;
+}
+.container input {
+  color: #432000;
+  background-color: #dce1eb;
+  padding: 15px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+.container button {
+  color: #fdfdfd;
+  background-color: #ac485a;
+  padding: 15px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+ul {
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  background-color: #fffdf8;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 9px;
+  flex-grow: 1;
+}
+.login-form{
+  max-width: 320px;
+  margin: 0 auto;
+}
+.login-form form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.login-form input{
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+.login-form button{
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  background-color: #ac485a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 1.2rem 5px;
+}
+.btn-group{
+  display: flex;
+  gap: 5px;
+}
+.welcome-text{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: 10px auto;
+}
