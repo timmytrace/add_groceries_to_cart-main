@@ -23,7 +23,7 @@ Webpack
 ## Installation
 To run this web app locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/aydotjs/add_groceries_to_cart
+1. Clone the repository: git clone https://github.com/timmytrace/add_groceries_to_cart
 
 2. Navigate to the project directory: cd add_groceries_to_cart
 
